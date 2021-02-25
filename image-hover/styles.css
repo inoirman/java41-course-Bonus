@@ -1,0 +1,39 @@
+body {
+  padding: 100px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.box {
+  width: 640px;
+  height: 430px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.img-wrapper {
+  transition: all 0.5s;
+}
+
+.text {
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  transition: all 0.5s;
+  /* transform: translateY(-430px); */
+  transform: translate(-640px, -430px);
+}
+
+.box:hover .text {
+  transform: translate(0, -430px);
+}
+/* 
+.box:hover .img-wrapper {
+  transform: translateY(-430px);
+} */

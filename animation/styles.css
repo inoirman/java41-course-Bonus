@@ -1,0 +1,43 @@
+body {
+  padding: 100px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.container div {
+  width: 30%;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.container div:hover {
+  transform: scale(1.25);
+}
+
+.animated {
+  padding: 10px 25px;
+  background-color: blue;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.animated:hover {
+  transform: scale(1.05);
+  background-color: red;
+}
